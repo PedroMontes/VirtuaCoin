@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C302D0BF253C7C6A00325257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302D0BE253C7C6A00325257 /* AppDelegate.swift */; };
 		C302D0C1253C7C6A00325257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302D0C0253C7C6A00325257 /* SceneDelegate.swift */; };
-		C302D0C3253C7C6A00325257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302D0C2253C7C6A00325257 /* ViewController.swift */; };
+		C302D0C3253C7C6A00325257 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302D0C2253C7C6A00325257 /* ConverterViewController.swift */; };
 		C302D0C6253C7C6A00325257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C302D0C4253C7C6A00325257 /* Main.storyboard */; };
 		C302D0C8253C7C7000325257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C302D0C7253C7C7000325257 /* Assets.xcassets */; };
 		C302D0CB253C7C7000325257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C302D0C9253C7C7000325257 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		C302D0BB253C7C6A00325257 /* VirtuaCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtuaCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C302D0BE253C7C6A00325257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C302D0C0253C7C6A00325257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C302D0C2253C7C6A00325257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C302D0C2253C7C6A00325257 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 		C302D0C5253C7C6A00325257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C302D0C7253C7C7000325257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C302D0CA253C7C7000325257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		C302D0BD253C7C6A00325257 /* VirtuaCoin */ = {
 			isa = PBXGroup;
 			children = (
+				C302D0D6253CB84500325257 /* Controller */,
+				C302D0D5253CB83E00325257 /* View */,
+				C302D0D4253CB83200325257 /* Model */,
 				C302D0BE253C7C6A00325257 /* AppDelegate.swift */,
 				C302D0C0253C7C6A00325257 /* SceneDelegate.swift */,
-				C302D0C2253C7C6A00325257 /* ViewController.swift */,
-				C302D0C4253C7C6A00325257 /* Main.storyboard */,
 				C302D0C7253C7C7000325257 /* Assets.xcassets */,
 				C302D0C9253C7C7000325257 /* LaunchScreen.storyboard */,
 				C302D0CC253C7C7000325257 /* Info.plist */,
 			);
 			path = VirtuaCoin;
+			sourceTree = "<group>";
+		};
+		C302D0D4253CB83200325257 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C302D0D5253CB83E00325257 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C302D0C4253C7C6A00325257 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C302D0D6253CB84500325257 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C302D0C2253C7C6A00325257 /* ConverterViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C302D0C3253C7C6A00325257 /* ViewController.swift in Sources */,
+				C302D0C3253C7C6A00325257 /* ConverterViewController.swift in Sources */,
 				C302D0BF253C7C6A00325257 /* AppDelegate.swift in Sources */,
 				C302D0C1253C7C6A00325257 /* SceneDelegate.swift in Sources */,
 			);
